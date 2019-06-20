@@ -1,1 +1,38 @@
+    body {
+        background-image: url(https://i.redd.it/1kjqfk2u8jy11.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0px;
+      }
+
+      body::before {
+          background-color: black;
+          z-index: -1;
+      }
+  
+      h1, h3, ul {
+        color:white;
+        text-align:center;
+        text-shadow:  1px 1px 1px rgb(109, 18, 18);
+        font-family: Open Sans;
+        text-transform: uppercase;
+      }
+
+      li {
+          list-style: none;
+      }
+  
+      p {
+        color:white;
+        text-align:center;
+        text-shadow: 1px 1px 1px rgb(109, 18, 18);
+        font-family: Open Sans;
+      }
+  
+      .text-container {
+        margin: 0;
+        background-color: rgba(255, 0, 0, 0.5);
+        padding: 20px;
+      }
 
